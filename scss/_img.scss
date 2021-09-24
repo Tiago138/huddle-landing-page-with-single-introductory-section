@@ -1,6 +1,10 @@
 .img {
     padding: 0 40px;
 
+    @include breakpoint-up(large) {
+        padding: 0;
+    }
+
     &__mockups {
 
         img {

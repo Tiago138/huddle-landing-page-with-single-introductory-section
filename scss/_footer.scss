@@ -2,6 +2,12 @@
     &__links {
         text-align: center;
 
+        @include breakpoint-up(large) {
+            position: absolute;
+            right: 80px;
+            bottom: 40px;
+        }
+
         a {
             color: white;
             cursor: pointer;
@@ -9,6 +15,10 @@
             position: relative;
             margin-right: 15px;
             transition: color 150ms ease-in-out;
+
+            @include breakpoint-up(large) {
+                font-size: 30px;
+            }
 
             &:hover {
                 color: $softMagenta;
