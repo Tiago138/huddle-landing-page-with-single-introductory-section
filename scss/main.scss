@@ -1,0 +1,42 @@
+@import "variables";
+@import "globals";
+
+@import "header";
+@import "img";
+@import "footer";
+
+.hero {
+    padding: 40px;
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 0.8;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 1.5;
+
+    }
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        padding: 12px 80px;
+        color: $violet;
+        background-color: white;
+        border: none;
+        border-radius: 27px;
+        transition: all 150ms ease-in-out;
+
+        &:hover {
+            color: white;
+            background-color: $softMagenta;
+        }
+    }
+}

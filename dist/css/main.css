@@ -1,0 +1,97 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #674baf;
+  background-image: url("/dist/images/bg-mobile.svg");
+  height: 373px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header {
+  padding: 40px;
+}
+
+.header__logo img {
+  height: 36px;
+}
+
+.img {
+  padding: 0 40px;
+}
+
+.img__mockups img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__links a {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  position: relative;
+  margin-right: 15px;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.footer__links a:hover {
+  color: #e882e8;
+}
+
+.hero {
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.hero__text {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.hero button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  padding: 12px 80px;
+  color: #674baf;
+  background-color: white;
+  border: none;
+  border-radius: 27px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.hero button:hover {
+  color: white;
+  background-color: #e882e8;
+}
+/*# sourceMappingURL=main.css.map */
